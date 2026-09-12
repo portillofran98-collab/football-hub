@@ -1,37 +1,31 @@
 # ⚽ Football Hub
 
-Football Hub es una aplicación web moderna creada para explorar jugadores destacados del fútbol mundial.
-
-El proyecto permite visualizar información de diferentes jugadores, consultar sus perfiles individuales y explorar jugadores por equipo.
-
----
+Football Hub es una aplicación web moderna creada con Next.js que permite explorar jugadores de fútbol y consultar información detallada sobre cada jugador y su equipo.
 
 ## 🚀 Tecnologías utilizadas
 
-- Next.js 16+ con App Router
+- Next.js 16+
+- React
 - TypeScript
 - Tailwind CSS
 - Supabase
-- Vercel
-
----
+- App Router
 
 ## ✨ Funcionalidades
 
-- Landing page moderna y responsive.
-- Visualización de jugadores destacados.
-- Datos almacenados y consultados desde Supabase.
-- Ruta dinámica para perfiles de jugadores.
-- Ruta dinámica para explorar jugadores por equipo.
-- Uso de Server Components.
-- Loading state durante la carga de páginas.
+- Visualización de jugadores de fútbol.
+- Información detallada de cada jugador.
+- Navegación mediante rutas dinámicas.
+- Página dinámica para jugadores.
+- Página dinámica para equipos.
+- Datos obtenidos desde Supabase.
+- Server Components.
+- Loading states.
 - Manejo de errores.
+- Diseño responsive.
 - Row Level Security (RLS) configurado en Supabase.
-- Diseño responsive para diferentes tamaños de pantalla.
 
----
-
-## 🗂️ Rutas dinámicas
+## 🛣️ Rutas dinámicas
 
 ### Jugadores
 
