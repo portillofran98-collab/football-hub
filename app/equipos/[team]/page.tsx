@@ -29,8 +29,16 @@ export default async function TeamPage({
 
   if (error) {
     return (
-      <main className="flex min-h-screen items-center justify-center bg-slate-950 text-white">
-        <p>Error cargando los jugadores.</p>
+      <main className="flex min-h-screen items-center justify-center bg-slate-950 px-6 text-white">
+        <div className="text-center">
+          <p className="mb-3 text-sm font-bold text-red-400">
+            ERROR DE SUPABASE
+          </p>
+
+          <p className="text-lg">
+            {error.message}
+          </p>
+        </div>
       </main>
     );
   }
